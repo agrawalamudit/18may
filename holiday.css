@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.holidayDes
+{
+    text-align: center;
+    padding-top: 20px;
+    margin: 77px 0px -16px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+}
+
+.main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.main .box
+{
+    height: 300px;
+    width: 200px;
+    margin: 62px 7px 0px 7px;
+    border-radius: 18px;
+
+    
+    background-size: 100% 100%;  
+    background-repeat:no-repeat;
+
+    color: white;
+    overflow: hidden;
+
+    text-align:center;
+
+    position: relative;
+}
+
+.main h2
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 13px;
+}
+
+.main .info
+{
+    font-family: sans-serif;
+    font-size: 13px;
+    position: absolute;
+    bottom: -30px;
+    transition:all 1s ease;
+}
+
+.main hr
+{
+    margin: 7px 28px;
+}
+
+.main .btn
+{
+    height: 21px;
+    width: 78px;
+    background-color: rgb(81, 146, 51);
+    margin:8px 59px;
+    padding-top:2px;
+
+    transition-delay: 0.7s;
+}
+
+.main .btn a
+{
+    color:white;
+    text-decoration: none;
+}
+
+
+.box:hover .info
+{
+    transform: translateY(-50px);
+}
+
+/* code to blur box on hover */
+
+.main .box:hover .blurBg
+{
+    position: absolute;
+    top:0;left:0;right:0;bottom: 0;
+    height:100%;width:100%;
+    border-radius: 18px;
+    background-color: rgba(139, 139, 139, 0.336);
+    filter:blur(2px);
+}
+
+
+
+/* box1 */
+#box1
+{
+    background-image: url("./paris.jpg");
+}
+
+#box2
+{
+    background-image: url("./jammu.jpg");
+    
+}
+
+#box3
+{
+    background-image: url("./darjeeling.jpg"); 
+}
+
+#box4
+{
+    background-image: url("./Himachal.jpg");
+}
+
+#box5
+{
+    background-image: url("./jaipur.jpg");
+}
